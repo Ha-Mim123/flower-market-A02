@@ -5,10 +5,14 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
-
-
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* shared styles */
 .display-flex{
     display: flex;
@@ -119,14 +123,6 @@ main > section{
     font-weight: bold;
 }
 
-.noto-serif-normal {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 .plant-lover{
     max-width: 1140px;
     margin: 150px auto;
@@ -177,41 +173,65 @@ main > section{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
-/* .two-plant{
-    flex-direction: column;
-    gap: 10px;
-    width: 367px;
-    height: 201px;
-    
-} */
-/* .one-plant{
+.one-plant{
     width: 753px;
     height: 624px;
 }
-.p3{
-    color: white;
+.offer-section{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 100px auto;
+    /* height: 424px; */
+    
 }
+.two{
+    flex-direction: column;
+    width: 30%;
+    /* height: 423px; */
+    margin-right: 10px;
 
+}
 .plant-deal-01{
     background-image: url("../assets/deal-bloom.png");
     background-repeat: no-repeat;
     border-radius: 10px;
+    color: white;
+    height: 201px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
 }
 .plant-deal-02{
     background-image: url("../assets/deal-ana.png");
     background-repeat: no-repeat;
     border-radius: 10px;
+    color: white;
+    height: 197px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .plant-deal-03{
     background-image: url("../assets/deal-zabo.png");
     background-repeat: no-repeat;
     border-radius: 10px;
+    color: white;
+    width: 70%;
+    height: 424px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
-.description{
-    text-decoration: underline;
-} */
+.click{
+    color: white;
+}
 @media screen and (max-width:576px) {
     .navbar{
 
