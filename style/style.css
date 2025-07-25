@@ -255,7 +255,7 @@ main > section{
 }
 .join-section{
     background-image: url("../assets/news-letter-bg.png");
-    max-width: 100%;
+    width: 100%;
     height: 533px;
     margin: 100px auto;
     display: flex;
@@ -424,7 +424,16 @@ footer > section > div > ul > li{
     }
 
     /* offer section */
-    
+    .offer-section{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 40px ;
+        
+        gap: 20px;
+        padding: 0 16px;
+        padding-left: 40px;
+    } 
     .plant-deal-01,
     .plant-deal-02,
     .plant-deal-03{
@@ -432,15 +441,8 @@ footer > section > div > ul > li{
         flex-direction: column;
         justify-content: center;
         margin-bottom: 0px;
+        width: 100%;
     }
-    .offer-section{
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        margin: 50px auto;
-        gap: 20px;
-        padding: 0 16px;
-    } 
     .plant-deal-01{
         margin-bottom: 20px;
     }
@@ -451,15 +453,31 @@ footer > section > div > ul > li{
         height: 200px;
         margin-left:0px;
     }
+    .new3{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .click-01, .click-02{
+        font-size: 1rem;
+        font-weight: 600;
+    }
     /* join section */
-
+    .join{
+        width: 560px;
+    }
     .join-section{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         background-size: 100%;
-        max-width: 100%;
+        width: 100%;
         height: 278px;
-        margin: 50px auto;
+        padding-left: 90px;
+    }
+    .join-input-section{
+        width: 100%;
     }
     .join-title{
         width: 235px;
@@ -467,9 +485,13 @@ footer > section > div > ul > li{
         font-size: 1.25rem;
         font-weight: bold;
     }
+    .pc3{
+        padding-left: 90px;
+    }
     #email{
         height: 50px;
         width: 218px;
+
     }
     .btn{
         width: 103px;
