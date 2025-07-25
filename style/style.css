@@ -449,4 +449,8 @@ footer > section > div > ul > li{
         height: 55px;
         cursor: pointer;
     }
+    .footer-section{
+        flex-direction: column;
+        margin: 90px 0px;
+    }
     }
