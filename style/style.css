@@ -177,13 +177,13 @@ main > section{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
-.two-plant{
+/* .two-plant{
     flex-direction: column;
     gap: 10px;
     width: 367px;
     height: 201px;
     
-}
+} */
 /* .one-plant{
     width: 753px;
     height: 624px;
@@ -238,9 +238,6 @@ main > section{
         margin: 0 auto;
     }
     .banner-title{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
         height: 33px;
         width: 195px; 
         margin-top: 100px;
@@ -248,10 +245,10 @@ main > section{
         font-size: 1.6rem;
     }
     .banner-description{
-        width: 360px;
-        height:78px;
+        width: 400px;
+        height:200px;
         /* margin-bottom: 100px; */
-        font-size: 0.875rem;
+        font-size: 1.2rem;
     }
     .banner-img{
         width: 50%;
@@ -264,6 +261,7 @@ main > section{
         justify-content: center;
         text-align: center;
         align-items: center;
+        width: 600px;
         
     }
     .flower{
@@ -302,4 +300,17 @@ main > section{
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .latest-deals{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 420px;
+    } 
+    .deal-title{
+       margin-top: 0px;
+       margin-bottom: 0px;
+    }
+    
     }
