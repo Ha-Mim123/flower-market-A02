@@ -200,7 +200,8 @@ main > section{
     }
     .banner-description{
         width: 360px;
-        height: 68px;
+        height:78px;
+        /* margin-bottom: 100px; */
         font-size: 0.875rem;
     }
     .banner-img{
@@ -209,6 +210,7 @@ main > section{
         /* margin: 20px px; */
     }
     .our-plants{
+        
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -222,7 +224,7 @@ main > section{
         
     }
     .plants{
-        margin-top: 0px;
+        margin-top: 120px;
     }
     .plant-title{
         margin-bottom: 10px;
@@ -239,5 +241,16 @@ main > section{
         justify-content: center;
         align-items: center;
         display: flex;
+    }
+    .plant-lover{
+        flex-direction: column;
+        
+    }
+    .badge{
+        display: none;
+    }
+    .plnt, .plant-lover-description, .plant-lover-title{
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     }
